@@ -6,44 +6,37 @@ Algoritmo "Vetor Numeros na Diagonal"
 
 Var
 
-   x: vetor [1..9] de inteiro
-   soma, i: inteiro
-
+   matriz: vetor [1..3, 1..3] de real
+   linha, coluna: inteiro
+   soma: real
+   
 Inicio
 
-      Para i de 1 ate 9 Faca
+      Para linha de 1 ate 3 Faca
+           Para coluna de 1 ate 3 Faca
 
-           Escreval("Digite o número", i, ": ")
-           Leia(x[i])
+                Escreval("Digite o número que ira compôr a linha", linha, " e a coluna", coluna, ":")
+                Leia( matriz [ linha, coluna ] )
+                escreval
+                
+           FimPara
+      FimPara
+      
+      Para linha de 1 ate 3 Faca
+           Para coluna de 1 ate 3 Faca
+
+                Escreva( matriz [ linha, coluna ] )
+
+           FimPara
            escreval
-
+           
       FimPara
-
-      Para i de 1 ate 3 Faca
-
-           Escreva(" ", x[i])
-
-      FimPara
-      escreval
-      
-      Para i de 4 ate 6 Faca
-
-           Escreva(" ", x[i])
-
-      FimPara
-      escreval
-      
-      Para i de 7 ate 9 Faca
-
-           Escreva(" ", x[i])
-
-      FimPara
-      escreval
-      
-      Soma <- x[1] + x[5] + x[9]
       
       escreval
-      Escreval("A soma da Diagonal é igual a", soma)
-      escreval
+      
+      soma <- (matriz[1, 1]) + (matriz[2, 2]) + (matriz[3, 3])
 
+      Escreval("A soma da diagonal dessa matriz é igual a", soma)
+      escreval
+      
 Fimalgoritmo
