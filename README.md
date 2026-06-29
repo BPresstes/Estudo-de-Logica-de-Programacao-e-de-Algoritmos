@@ -1,4 +1,4 @@
-Estudos de Algoritmos e Lógica de Programação
+**Estudos de Algoritmos e Lógica de Programação**
 
 Este repositório documenta minha jornada de aprendizado em **Algoritmos e Lógica de Programação**, iniciada com o uso do **VisualG (Portugol)** e baseada no curso de **210 horas** - "Lógica Programação VisualG, C++, Python, C#, Java + Projetos " - do professor Clevison Santos na Udemy.  
 
